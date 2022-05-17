@@ -16,7 +16,7 @@ public class Solution{
 				System.out.println(strToPrint1);
 				return;
 			}
-			else if(nmi >= i) breakNumbers(n - i, strToPrint1, i);
+			else if(nmi >= i) breakNumbers(nmi, strToPrint1, i);
 		}
 	}
 }
