@@ -24,3 +24,6 @@ hs_err_pid*
 
 # temporary swap files
 *.swp
+
+# pdf files
+*.pdf
