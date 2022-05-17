@@ -1,0 +1,11 @@
+Find the maximum subarray sum of an array of length n
+
+Sample Input:
+9
+1 2 7 -4 3 2 -10 9 1
+
+Sample output:
+11
+
+The subarray yielding maximum sum is:
+[1 2 7 -4 3 2]
