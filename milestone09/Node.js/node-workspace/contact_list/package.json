@@ -1,0 +1,14 @@
+{
+  "name": "contact_list",
+  "version": "1.0.0",
+  "description": "a basic contact list to learn express js as a framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "avinash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
