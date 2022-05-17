@@ -27,3 +27,6 @@ hs_err_pid*
 
 # pdf files
 *.pdf
+
+# node_modules directory
+node_modules/
