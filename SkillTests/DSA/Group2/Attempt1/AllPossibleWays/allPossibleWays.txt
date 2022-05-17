@@ -1,0 +1,12 @@
+Given two integers a and b, you need to find the count of possible ways in
+which we can represent the number a as the sum of unique integers raised to
+the power b.
+
+For example: if a = 10 and b = 2, the only way to represent 10 as a sum of
+unique integers raised to power 2 is:
+10 = 1^2 + 3^2
+
+For a = 100 and b = 2, there are 3 ways possible:
+100 = 10^2
+100 = 8^2 + 6^2
+100 = 7^2 + 5^2 + 4^2 + 3^2 + 1^2 
