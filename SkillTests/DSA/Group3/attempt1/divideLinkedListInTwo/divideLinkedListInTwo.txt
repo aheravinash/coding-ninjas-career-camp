@@ -1,0 +1,9 @@
+Write a function that takes one list and divides up its nodes to create two smaller lists A and B. The sub lists should be made from alternating elements in the original list.
+Nodes should be in the reverse order of which they occurred in the source list.
+Print both linked lists in different lines.
+
+Example:
+Input: 8 2 5 9 1 4 3 7 -1
+Output: 
+3 1 5 8
+7 4 9 2
