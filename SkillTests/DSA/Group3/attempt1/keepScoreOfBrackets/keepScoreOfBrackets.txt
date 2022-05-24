@@ -1,0 +1,22 @@
+Given a balanced paranthesis string, find the score of it.
+
+1. A bracket group like () has a score of 3
+2. XY has a score of X + Y where X and Y are balanced parentheses strings
+3. A bracket group like (A) has score 3 * A where A is a balanced parentheses
+string
+
+Example:
+Input: (()(()))
+Output: 36
+Explaination: (()(())) = (3 + (3)) = (3 + 3*3 ) = (12) = 3*12 = 36
+
+Input: (()()(()(()))())
+Output: 135
+Explanation: 
+(()()(()(()))()) = ( () () ( () (()) ) () ) 
+    = ( 3 + 3 + ( 3 + (3) ) + 3 )
+    = ( 3 + 3 + ( 3 + 9 ) + 3 )
+    = ( 3 + 3 + (12) + 3 )
+    = ( 3 + 3 + 36 + 3)
+    = ( 45 )
+    = 135
