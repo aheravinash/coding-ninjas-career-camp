@@ -1,0 +1,2 @@
+You have been given a Generic Tree of Integers. The task is to count the number of 'Special Nodes'.
+A Node is a Special Node if there is a path from the root to that Node with all distinct elements.
