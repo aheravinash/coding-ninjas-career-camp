@@ -1,0 +1,29 @@
+War on NinjaLand
+
+Pandora has declared war against NinjaLand. The brave soldiers of NinjaLand have been defending their country against attacks for a long time. There is a shortage of food amongst the citizens. The governor of NinjaLand has ordered the army to drop food crates via helicopters.
+
+Each helipad in NinjaLand is located at the nodes of a Generic Tree. Due to constant attacks from Pandora, the dispatched helicopter cannot stay over civilian sky for long or it will be shot down by the enemy. The pilot has decided to cover the entire Helipad Tree with the least number of landings. Each Helipad node can cover the node connected to it by one edge.
+
+If the number of landings exceed a certain number, the helicopter will be shot down by Pandora.
+
+Since it is a high pressure situation, you have to help the pilot figure out the minimum number of times he needs to land his helicopter in order to cover the entire Helipad Tree without being shot and complete its mission (if possible).
+
+Sample Input 1:
+1 3 1 1 1 2 1 1 0 0 0 0
+3
+
+Sample Output 1:
+2 Mission Successful
+
+Explanation:
+For the given input the tree formed is given below, which can be covered with minimum 2 landings, which is less than the maximum allowed landings.
+
+Sample Input 2:
+1 3 1 1 1 2 1 1 1 1 3 1 1 1 0 0 2 1 1 0 0 0 0 0
+2
+
+Sample Output 2:
+3 Mission Unsuccessful
+
+Explanation:
+For the given input the tree formed is given below, which can be covered with minimum 3 landings, which is more than the maximum allowed landings.
