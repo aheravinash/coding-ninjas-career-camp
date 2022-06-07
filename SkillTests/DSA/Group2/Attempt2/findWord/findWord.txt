@@ -1,0 +1,13 @@
+Find Word
+Given a 2D grid of characters and a word w, find number of occurrences of given word in the input grid. A word can be matched in up, down, left and right directions.
+Note : Length of each row may be different.
+
+Input :
+3
+rtoe
+aotl
+ttot
+to
+
+Output :
+8
