@@ -1,0 +1,17 @@
+Print the sum of two binary strings.
+
+Input Format:
+First line of input contains an integer t, representing the number of test cases.
+First line of input of each test case contains the first binary string.
+Second line of input each test case contains the second binary string.
+
+Output Format:
+For each query, you have to print the sum of the two given binary strings as a binary string.
+
+Sample Input 1:
+1
+1010001
+1101
+
+Sample Output 1:
+1011110
