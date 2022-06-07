@@ -1,0 +1,20 @@
+Shrey has just arrived in the city. When he entered the city, he was given two strings. Now, after arriving at his college, his professor gave him an extra string. To check his intelligence, his professor told him to check if the third string given to him has all the characters of the first and second strings in any order. Help Shrey before his professor scolds him. He has to answer “YES” if all characters are present else “NO”.
+Example: ‘HELLO’ and ‘SHREY’ are two initial strings, and his professor gave him ’HLOHEELSRY’. So, here all the characters are present, so he has to say “YES”.
+
+Sample Input 1:
+2
+HI HEY EIHYH
+ALL GOOD ADOLLG
+
+Sample Output 1:
+YES
+NO
+
+Sample Input 1:
+2
+CODING NINJA NINCODINGJA
+YES NO NEEOOYS
+
+Sample Output 1:
+YES
+NO
