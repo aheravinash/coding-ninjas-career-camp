@@ -1,0 +1,17 @@
+Linked List Matrix
+Given a Matrix mat of N*N size, write a program that constructs a 2D linked list representation of the given matrix.
+Input : 2D matrix
+1 2 3
+4 5 6
+7 8 9
+Output :
+1 -> 2 -> 3 -> NULL
+|    |    |
+v    v    v
+4 -> 5 -> 6 -> NULL
+|    |    |
+v    v    v
+7 -> 8 -> 9 -> NULL
+|    |    |
+v    v    v
+NULL NULL NULL
