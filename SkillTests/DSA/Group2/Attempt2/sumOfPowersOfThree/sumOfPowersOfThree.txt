@@ -1,0 +1,18 @@
+Given an integer n, return true if it is possible to represent n as the sum of distinct powers of three. Otherwise, return false.
+
+
+Sample Input 1:
+1
+91
+Sample Output 1:
+true
+Explanation:
+3^0 + 3^2 + 3^4
+
+Sample Input 2:
+2
+12
+21
+Sample Output 2:
+true
+false
