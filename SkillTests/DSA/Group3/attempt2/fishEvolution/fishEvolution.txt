@@ -1,0 +1,40 @@
+Fish Evolution
+
+Namita has magical fishes. Her fishes has the capability to evolve to become bigger fish. So, if the smaller fish touches a bigger or equivalent fish, then the bigger or equivalent fish disappears into water and the smaller fish evolves to become as large as the larger fish. Therefore, to avoid stray evolutions, she has kept her fishes in separate cells, arranged in a linear order. Now, she wants to evolve only one fish and she wants to choose the fish which will evolve maximum number of times. She wants your help in this. To make it more interesting, she has added signs of evolution with the fish cells. A cell assigned with +1 can only evolve with fishes on its right side and a cell assigned with -1 can only evolve with fishes on its left side. Can you complete this challenge?
+
+Remember that the fishes are mindlessly evolving. This means that they evolve with the first big fish that comes in their way. Consider the following case. Here, Fish with size 5 can evolve in right direction.
+
+5 12 10 11 13
+
+Fish with size 5 will evolve 2 times like 5 -> 12 -> 13 and not 3 times like 5->10->11->13.
+
+Note: If there is more than one fish which can evolve the maximum number of times, select the one with the greater size.
+
+Output Format:
+For each test case, you have to print the size of fish which will evolve maximum number of times, along with the direction it is going to evolve in. (Left for -1 and Right for +1)
+
+Sample Input 1:
+1
+10
+5 1 4 12 10 8 11 9 18 88
+1 1 -1 -1 1 -1 1 -1 -1 -1
+
+Sample Output 1:
+1 Right
+
+Explanation:
+1 can evolve 4 times with 4, 12, 18, 88
+
+Sample Input 2:
+1
+12
+30 20 5 2 4 12 10 8 11 3 18 88
+1 1 1 1 -1 -1 1 1 1 -1 -1 -1
+
+Sample Output 2:
+3 Left
+
+Explanation:
+2 can evolve 4 times with 4 -> 12 -> 18 -> 88
+3 can also evolve 4 times with 11 -> 12 -> 20 -> 30
+3 is greater than 2, hence the answer is 3 Left.
