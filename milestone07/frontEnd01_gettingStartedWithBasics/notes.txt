@@ -1,0 +1,35 @@
+www : World Wide Web : invented by Tim Berners-Lee in 1989
+
+HTML : HyperText Markup Language : Structure of Webpage
+
+CSS : Cascading Style Sheets : Design of Webpage
+
+Javascript : Interactive webpage and animations
+
+Client-Server Architecture : The code of the website (html, css, js etc)(resource) resides on a
+server a client browser requests the code to the server to show the webpage to
+the user. The server responds with the code. The client communicates with server for webpages. This is
+Client-Server Archituecture.
+
+Static vs Dynamic website : If the content of the website is same for all
+users, the website is static (e.g wikipedia); if the content of the website is
+different for different users (content is user specific), the website is
+dynamic (e.g. facebook)
+
+Front End : Client Side Section : Web Browser : We are worried about the
+presentation of the data and not the data itself.
+
+Back End : Server Side : Database, Authentication etc.
+
+IP address : All the devices connected to the internet have a unique id that
+is the ip address.
+
+DNS : Domain Name System : Its hard to remember IP addresses so we have domain
+names.
+
+How website is loaded? 
+enter url (uniform resource locator) -> if the browser has not cached the url
+and its corresponding IP address, browser contacts ISP (internet service
+provider) for IP address -> if the ISP has not cached the url and IP address,
+it performs a domain name search (DNS search) and returns the address to the
+browser -> browser contacts and connects with the server.
